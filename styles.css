@@ -1,0 +1,30 @@
+html, body {
+    height: 100%; /* Ensure the body and HTML elements take up the full height of the viewport */
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: linear-gradient(45deg, #030303, #2F2F2F);
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+}
+
+p {
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: white;
+} 
+
+.paragraph-container{
+    text-align: center;
+    margin: auto;
+    background: linear-gradient(90deg,rgba(255, 255, 255, 0.03), rgba(255, 255, 255, 0.1));
+    border-radius: 15px; 
+    padding: 20px;
+    max-width: 70%;   
+}
