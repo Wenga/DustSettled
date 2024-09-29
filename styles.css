@@ -15,6 +15,7 @@ p {
     font-style: normal;
     line-height: 1.6;
     color: white;
+    margin: 0;
 } 
 
 .container {
@@ -27,6 +28,22 @@ p {
     overflow-y:auto;
 }
 
+.zh-style {
+    font-family: "Noto Sans SC", sans-serif; 
+    font-size: 1.5em; 
+    color: rgb(255, 255, 255); 
+    line-height: 1.6;
+}
+
+.en-style{
+    font-size: 1.5em;
+    font-family: 'roboto', sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    line-height: 1.6;
+    color: white;
+}
+
 .hidden {
     display: none; 
 }
@@ -37,12 +54,11 @@ p {
 
 .message-container{
     text-align: center;
-    margin: 0 10px;
+    margin: 0;
     background: linear-gradient(90deg,rgba(255, 255, 255, 0.03), rgba(255, 255, 255, 0.1));
     border-radius: 15px; 
-    padding: 20px;
-    max-width: 70%; 
-    flex-shrink: 0;  
+    max-width: 70%;  
+    padding: 30px;
 }
 
 
@@ -68,3 +84,16 @@ p {
     background-color: rgba(255, 255, 255, 0.8); 
     color: rgba(0, 0, 0, 0.3);
 }
+
+.language-toggle {
+    margin-bottom: 5px;
+}
+
+.language-button {
+    background:none;
+    color:rgb(54, 54, 54);
+    font-size: 1em;
+    border: none;      
+    box-shadow: none;    
+}
+
